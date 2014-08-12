@@ -63,7 +63,7 @@ module.exports = function(grunt) {
 				files: [{
 					expand: true,
 					cwd:'<%= app %>/',
-					src: ['fonts/**', '**/*.html', '!**/*.scss', 'CNAME', '!bower_components/**'],
+					src: ['fonts/**', '**/*.html', '!**/*.scss', 'CNAME', 'js/redirectHome.js', '!bower_components/**'],
 					dest: '<%= dist %>/'
 				} , {
 					expand: true,
