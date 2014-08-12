@@ -1,5 +1,3 @@
 'use strict';
 
-setTimeout(function() {
-  window.location.href = '/';  
-},50);
+window.location.href = 'http://areyouahugger.com';  

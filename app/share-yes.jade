@@ -1,8 +1,13 @@
 doctype html
 html(class="no-js", lang="en")
-head
+head(prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# website: http://ogp.me/ns/website#")
     meta(charset="utf-8")
+    meta(property="og:type"   content="website")
+    meta(property="og:title"  content="Yes, I am a Hugger")
+    meta(property="og:description" content="When I say hello and good-bye to people I don't mind a little hug. What about you?")
+    meta(property="og:image" content="https://georgestrakhov.github.io/areyouahugger/images/png/yesiamahugger_card_wide.png")
     meta(name="viewport", content="width=device-width, initial-scale=1.0")
+    script(src="js/redirectHome.js")
     title Yes I am a Hugger!
     // build:css css/libraries.min.css
     
@@ -27,4 +32,3 @@ head
         div(class="footer-container")
             include footer_details
     
-    script(src="js/redirectHome.js")
