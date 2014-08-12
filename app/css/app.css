@@ -5223,7 +5223,7 @@ th.hide-for-touch {
 body {
   background-color: #fff; }
   body.full-bg {
-    background: url(/images/jpg/bg5.jpg) no-repeat center center fixed;
+    background: url(../images/jpg/bg5.jpg) no-repeat center center fixed;
     background-size: cover; }
 
 /* all content */
