@@ -1,0 +1,30 @@
+doctype html
+html(class="no-js", lang="en")
+head
+    meta(charset="utf-8")
+    meta(name="viewport", content="width=device-width, initial-scale=1.0")
+    title No I am not a Hugger.
+    // build:css css/libraries.min.css
+    
+    link(rel="stylesheet", href="bower_components/font-awesome/css/font-awesome.css")
+    // bower:css
+    // endbower
+    // endbuild
+    // build:css css/app.min.css
+    link(rel="stylesheet", href="css/app.css")
+    link(rel="stylesheet", href="css/app_override.css")
+    // endbuild
+    body
+        div(class="all-content")
+            div.row
+                div(class="small-12 small-centered medium-10 medium-centered large-8 large-centered columns")
+                    h1(class="text-center main-headline") No I am not a Hugger.
+
+                    img(class="big-share-image" src="/images/png/noiamnotahugger_card.png")
+
+                    h3.text-center I like you and everything, but please, unless you share a lot of my DNA or we are married, don't squeeze me the next time you see me.
+
+        div(class="footer-container")
+            include footer_details
+    
+    script(src="/js/redirectHome.js")

@@ -1,0 +1,21 @@
+doctype html
+html(class="no-js", lang="en")
+    include head
+    body.full-bg
+        div(class="all-content")
+            div.row
+                div(class="small-12 small-centered medium-10 medium-centered large-8 large-centered columns")
+                    h1(class="bright-text text-center main-headline") Are You a Hugger?
+                    h6(class="bright-text text-center sub-headline") let the world know if you enjoy a little hug every now and then
+            div.row
+                div(class="small-12 medium-6 columns small-text-center")
+                    a(href="/yes.html" class="yes-no-card")
+                         img(class="yes-no-card-image" src="/images/png/yesiamahugger_card.png")
+                div(class="small-12 medium-6 columns small-text-center")
+                    a(href="/no.html" class="yes-no-card")
+                         img(class="yes-no-card-image" src="/images/png/noiamnotahugger_card.png")
+
+        div(class="footer-container bright-text")
+            include footer
+
+        include scripts

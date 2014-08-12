@@ -1,0 +1,30 @@
+doctype html
+html(class="no-js", lang="en")
+head
+    meta(charset="utf-8")
+    meta(name="viewport", content="width=device-width, initial-scale=1.0")
+    title Yes I am a Hugger!
+    // build:css css/libraries.min.css
+    
+    link(rel="stylesheet", href="bower_components/font-awesome/css/font-awesome.css")
+    // bower:css
+    // endbower
+    // endbuild
+    // build:css css/app.min.css
+    link(rel="stylesheet", href="css/app.css")
+    link(rel="stylesheet", href="css/app_override.css")
+    // endbuild
+    body
+        div(class="all-content")
+            div.row
+                div(class="small-12 small-centered medium-10 medium-centered large-8 large-centered columns")
+                    h1(class="text-center main-headline") Yes, I am a Hugger!
+
+                    img(class="big-share-image" src="/images/png/yesiamahugger_card.png")
+
+                    h3.text-center Are you a Hugger too? If yes - feel free to give me a little hug when you see me next time.
+
+        div(class="footer-container")
+            include footer_details
+    
+    script(src="/js/redirectHome.js")
